@@ -4,12 +4,14 @@ local start = require "scenes.start"
 local left = require "scenes.left"
 local right = require "scenes.right"
 local grate = require "scenes.grate"
+local grate_open = require "scenes.grate_open"
 
 local scenes = {
   start = start,
   left = left,
   right = right,
-  grate = grate
+  grate = grate,
+  grate_open = grate_open
 }
 
 for _, scene in pairs(scenes) do
